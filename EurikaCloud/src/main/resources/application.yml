@@ -1,0 +1,13 @@
+eureka:      
+  client: 
+    registerWithEureka: false 
+    fetchRegistry: false 
+server: 
+  port: 8761
+spring: 
+  application: 
+    name : EUREKA-CLOUD-SERVER 
+#eureka.client.registerWithEureka: false 
+#eureka.client.fetchRegistry: false 
+#server.port: 8761 
+#spring.application.name : EUREKA-CLOUD-SERVER
